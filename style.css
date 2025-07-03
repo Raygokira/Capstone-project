@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 60px 20px;
+  box-sizing: border-box;
+}
+
+.center {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.light-bg {
+  background-color: #fef6ed;
+  color: black;
+}
+
+.dark-bg {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  margin: 20px 0 10px;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 1.3em;
+  max-width: 700px;
+}
+
+.left-img, .right-img {
+  position: absolute;
+  bottom: 0;
+  width: 250px;
+}
+
+.left-img {
+  left: 0;
+}
+
+.right-img {
+  right: 0;
+}
+
+.bottom-left-img {
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+  width: 200px;
+}
+
+.habilidades {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.habilidade {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.habilidade img {
+  width: 200px;
+  border-radius: 8px;
+}
+
+.personagem {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+}
